@@ -1,3 +1,11 @@
 {
-  "extends": "eslint-config-egg"
+    "extends": "eslint-config-egg",
+    "rules": {
+        "semi": "off",
+        "no-extra-semi": "warn",
+        "no-tabs": "warn",
+        "indent": "off",
+        "quotes": "warn",
+        "no-unused-vars": "warn"
+    }
 }
